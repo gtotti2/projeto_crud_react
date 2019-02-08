@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/crud_react/precache-manifest.99ac23ec1affb38b9b1734aaf557f667.js"
+  "/projeto_crud_react/precache-manifest.95c0f1a990ccedf8df47e3cdb8fe1265.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/crud_react/index.html", {
+workbox.routing.registerNavigationRoute("/projeto_crud_react/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
